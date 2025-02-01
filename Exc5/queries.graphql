@@ -1,0 +1,15 @@
+query {
+  client(id: "123") {
+    id
+    name
+    documents {
+      id
+      type
+      number
+    }
+    relatives {
+      id
+      name
+    }
+  }
+}
